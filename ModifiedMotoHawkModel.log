@@ -1,0 +1,183 @@
+
+###################################################
+### ###
+### Starting MotoHawk Build ###
+### MotoHawk version: 2016a_sp1.1722 ###
+### MATLAB version: 9.0.0.341360 (R2016a) ###
+### 14-Apr-2017 12:43:48 ###
+### ###
+###################################################
+
+Target Module: ECU565-128 (DEV)
+DEV Executable: ModifiedMotoHawkModel_015.srz
+MotoTune DLL: ModifiedMotoHawkModel_015.dll
+
+Project GUID: 55381155-06A8-48EB-A34B-431912874A01
+Build GUID: 0BDB3985-1699-4113-84BD-B7A685A24A9B
+
+### Generating code into build folder: H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build
+Warning: In release, R2015b, the "Generate preprocessor conditionals" global setting was removed from the Model Configuration Parameters > Code Generation (ert) > Interface pane. Generation of preprocessor conditionals is now a strict property of the individual variant blocks. You can run slConfigureVariantGPC('ModifiedMotoHawkModel','Disable all') to transfer the prior release global setting to the individual variant blocks. This will make your model behave the same way it did in the prior version of Simulink. Alternatively, you can run set_param('ModifiedMotoHawkModel','GeneratePreprocessorConditionals','Use local settings') to eliminate this warning and then manually configure the individual variant blocks' "Generate preprocessor conditionals" setting.
+Warning: Matching "From" for "Goto" 'ModifiedMotoHawkModel/Function-Call Subsystem/Controller/Goto10' not found
+Warning: Matching "From" for "Goto" 'ModifiedMotoHawkModel/Function-Call Subsystem/Controller/Goto14' not found
+Warning: Matching "From" for "Goto" 'ModifiedMotoHawkModel/Function-Call Subsystem/Controller/Goto15' not found
+Warning: Matching "From" for "Goto" 'ModifiedMotoHawkModel/Function-Call Subsystem/Controller/Goto16' not found
+Warning: Matching "From" for "Goto" 'ModifiedMotoHawkModel/Function-Call Subsystem/Controller/Goto17' not found
+Warning: Matching "From" for "Goto" 'ModifiedMotoHawkModel/Function-Call Subsystem/Controller/Goto28' not found
+Warning: Matching "From" for "Goto" 'ModifiedMotoHawkModel/Function-Call Subsystem/Controller/Goto5' not found
+Warning: Matching "From" for "Goto" 'ModifiedMotoHawkModel/Function-Call Subsystem/Controller/Goto8' not found
+Warning: Matching "From" for "Goto" 'ModifiedMotoHawkModel/Function-Call Subsystem/Controller/Goto9' not found
+Warning: Input port 2 of 'ModifiedMotoHawkModel/Function-Call Subsystem/Controller/Stepper Motor/Chart' is not connected.
+### Invoking Target Language Compiler on ModifiedMotoHawkModel.rtw
+### Using System Target File: C:\Program Files (x86)\Woodward\MCS\MotoHawk\2016a_sp1.1722\Blocks\Build\motohawk_ert_rtw.tlc
+### Loading TLC function libraries
+......
+### Initial pass through model to cache user defined code
+..............................
+### Caching model source code
+...............................................................................
+.............................................
+### Writing source file ModifiedMotoHawkModel.c
+### Writing header file ModifiedMotoHawkModel_private.h
+.
+### Writing header file ModifiedMotoHawkModel.h
+### Writing header file ModifiedMotoHawkModel_types.h
+### Writing header file rtwtypes.h
+### Writing header file zero_crossing_types.h
+### Writing source file ModifiedMotoHawkModel_data.c
+.
+### TLC code generation complete.
+.....
+Warning: In block: <S5>/motohawk_dout7, resource: EST 1 is used as DiscreteOutput, but is already defined as PWMOutput in block: <S5>/motohawk_pwm
+Warning: In block: <S5>/motohawk_dout7, resource: EST 1 is used as DiscreteOutput and as PWMOutput in block <S5>/motohawk_pwm. This resource can only be used once.
+Warning: Digital Output: EMotorVoltage not created.
+.............................................### Creating HTML report file ModifiedMotoHawkModel_codegen_rpt.html
+.
+### Processing Template Makefile: C:\Program Files (x86)\Woodward\MCS\MotoHawk\2016a_sp1.1722\Blocks\Build\motohawk_ert_rtw.tmf
+### ModifiedMotoHawkModel.mk which is generated from C:\Program Files (x86)\Woodward\MCS\MotoHawk\2016a_sp1.1722\Blocks\Build\motohawk_ert_rtw.tmf is up to date
+### Building ModifiedMotoHawkModel: .\ModifiedMotoHawkModel.bat
+### Created Code and Build Scripts. Ready to Build ### 
+Creating Application Descriptor...
+...Finished Application Descriptor
+### Starting MotoCoder v0.22.6 ###
+Module: ClassicModule-MPC565
+Module File: C:\Program Files (x86)\Woodward\MCS\MotoHawk\2016a_sp1.1722\MotoCoder\Modules\ClassicModule-MPC565.xml
+Module Family: ClassicControlCore
+Module Family Directory: C:\Program Files (x86)\Woodward\MCS\MotoHawk\2016a_sp1.1722\MotoCoder\ModuleFamilies\ClassicControlCore
+Application Configuration File: .\MotoHawk_Extensions.xml
+### Generating MotoTune DLL 
+Parser mode is C Source Code 
+Searching for files to parse 
+Writing Vardec Library H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build\TDB/ParsedVardecs.xml 
+### Completed MotoTune DLL 
+### Compiling and Linking 
+Buildfile: file:///H:/Desktop/5750 Final Project/Final Models/Final Models/ModifiedMotoHawkModel_Build/ModifiedMotoHawkModel.build 
+Target framework: Microsoft .NET Framework 4.0 
+Target(s) specified: rebuild 
+
+
+rebuild: 
+
+
+clean: 
+
+[clean delete] Deleting directory 'H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build\Build'. 
+[clean delete] Deleting directory 'H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build\Archive'. 
+
+all: 
+
+
+init: 
+
+[init mkdir] Creating directory 'H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build\Build\Obj'. 
+[init mkdir] Creating directory 'H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build\Archive'. 
+[init copy] Copying 4 Files to 'H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build\Archive'. 
+[echo] Low level symbolic debugging not available 
+
+compile: 
+
+[compile gcc-cpp] Compiling H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build\Motohawk_Triggers_0.c 
+[compile gcc-cpp] Compiling H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build\MotoHawk_DataStores.c 
+[compile gcc-cpp] Compiling H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build\EncoderCallback.c 
+[compile gcc-cpp] Compiling H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build\Application.c 
+[compile gcc-cpp] Compiling H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build\MotoCoder_DataStore.c 
+[compile gcc-cpp] Compiling H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build\AppMonitor.c 
+[compile gcc-cpp] Compiling H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build\MotoCoder.c 
+[compile gcc-cpp] Compiling H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build\ApplicationSecurity.c 
+[compile gcc-cpp] Compiling H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build\VarDecs.c 
+[compile gcc-cpp] Compiling H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build\ModifiedMotoHawkModel_data.c 
+[compile gcc-cpp] Compiling H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build\ModifiedMotoHawkModel.c 
+[compile gcc-cpp] Compiling H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build\MotoCoder_Timer.c 
+[compile gcc-cpp] Compiling H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build\MotoHawk_IO.c 
+[compile gcc-cpp] Compiling H:\Desktop\5750 Final Project\Final Models\Final Models\ModifiedMotoHawkModel_Build\TDB\TableDB.c 
+
+link: 
+
+[link gcc-ld] Linking ModifiedMotoHawkModel.elf 
+
+s-records: 
+
+[s-records gcc-objcopy] Generating ModifiedMotoHawkModel.run from ModifiedMotoHawkModel.elf 
+
+BUILD SUCCEEDED 
+
+Total time: 14.1 seconds. 
+
+### Parsing ELF file 
+### Call MotoConvert 
+Project format is MPC5xx 
+Toolchain format is GCC 
+Transforming range 0x00400000-0x0041FFFF into 64 byte pages, filling holes with 0xFF... 
+Transforming range 0x00000000-0x000FFFFF into 64 byte pages, filling holes with 0xFF... 
+Searching for Table Database address 'EriRequestTableList'...Found at 0x00036224 
+Searching for CRC Table address 'g_pCRCBlockPtr' ...Found at 0x00010000 
+Calculating Application defined CRC's using 0xFF as the fill...OK. 
+Searching for initialised section '.fixed_ramcals' aliased to '.fixed_romcals' ... 
+Searching for initialised section '.ramcals' aliased to '.romcals' ... 
+Adding RAM[0x003F8278], ROM[0x0003C580], Length[0x0000000C] 
+Searching for initialised section '.sdata' aliased to '.romsdata' ... 
+Adding RAM[0x003F7000], ROM[0x0003C58C], Length[0x00000018] 
+Searching for initialised section '.data' aliased to '.romdata' ... 
+Ignoring zero length section at RAM[0x003F7000], ROM[0x0003C58C] 
+Complete. 
+Writing file sr://Target\ModifiedMotoHawkModel_hdr.sr... 
+Encrypting 'sr://Target\ModifiedMotoHawkModel_hdr.sr' into 'srz://.\Target\ModifiedMotoHawkModel_015.srz' ... 
+Done. 
+Project format is MPC5xx 
+Toolchain format is GreenHills 
+Complete. 
+Writing file sr://Target\ModifiedMotoHawkModel.sr... 
+Done. 
+### Creating Build Statistics 
+Memory Summary:
+FLASH: 180276 bytes 18% of 982784
+ModifiedMotoHawkModel_M: 4 bytes 0% of 982784
+NonVolatileDefault: 12 bytes 0% of 982784
+DECRAM: 4096 bytes 100% of 4096
+FgndTimeStack: 3072 bytes 75% of 4096
+IdleStack: 1024 bytes 25% of 4096
+INTERNAL_RAM: 12320 bytes 34% of 36720
+NonVolatileWork: 12 bytes 0% of 36720
+BgndStack: 2048 bytes 6% of 36720
+InterruptStack: 1536 bytes 4% of 36720
+Heap: 4096 bytes 11% of 36720
+EXTENDED_RAM: 1770 bytes 0% of 1024K
+ModifiedMotoHawkModel_B: 132 bytes 0% of 1024K
+ModifiedMotoHawkModel_DWork: 108 bytes 0% of 1024K
+ModifiedMotoHawkModel_M_: 8 bytes 0% of 1024K
+CAL_SPACE: 204 bytes 0% of 65536
+ConstantWork: 48 bytes 0% of 65536
+EEPROM_SPACE: 15 bytes 0% of 8192
+
+### Copy ModifiedMotoHawkModel_015.dll and ModifiedMotoHawkModel_015.srz 
+### Successful Build with MotoCoder 
+Elapsed Build Time: 1 minutes, 50.7 seconds (110.7 seconds) 
+#############################################################################
+###
+### Target Module: ECU565-128
+### Created Development Executable: ModifiedMotoHawkModel_015.srz
+### Created MotoTune DLL: ModifiedMotoHawkModel_015.dll
+###
+### Successful MotoHawk Build for model: ModifiedMotoHawkModel
+###
+#############################################################################
+
